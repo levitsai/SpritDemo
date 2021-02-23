@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA3194C25DE10E800EFAF6D /* ElevatorJump.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */; };
+		7CA3195025DE126E00EFAF6D /* ElevatorJumpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */; };
+		7CA319CA25DE3D6F00EFAF6D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */; };
+		7CBBE66025E0EBF40083717C /* MarioNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBE65F25E0EBF40083717C /* MarioNode.swift */; };
+		7CBBE66225E0F0710083717C /* DpadShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBE66125E0F0710083717C /* DpadShapeNode.swift */; };
 		7CBFEAB525DD113200586AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB425DD113200586AC3 /* AppDelegate.swift */; };
 		7CBFEAB725DD113200586AC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB625DD113200586AC3 /* GameScene.sks */; };
 		7CBFEAB925DD113200586AC3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB825DD113200586AC3 /* Actions.sks */; };
@@ -16,6 +21,7 @@
 		7CBFEAC225DD113300586AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAC125DD113300586AC3 /* Assets.xcassets */; };
 		7CBFEACD25DD113400586AC3 /* SpriteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEACC25DD113400586AC3 /* SpriteDemoTests.swift */; };
 		7CBFEAD825DD113400586AC3 /* SpriteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEAD725DD113400586AC3 /* SpriteDemoUITests.swift */; };
+		7CE31EE025DFBB99009A3837 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE31EDF25DFBB99009A3837 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ElevatorJump.sks; sourceTree = "<group>"; };
+		7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorJumpScene.swift; sourceTree = "<group>"; };
+		7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7CBBE65F25E0EBF40083717C /* MarioNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioNode.swift; sourceTree = "<group>"; };
+		7CBBE66125E0F0710083717C /* DpadShapeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadShapeNode.swift; sourceTree = "<group>"; };
 		7CBFEAB125DD113200586AC3 /* SpriteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBFEAB425DD113200586AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CBFEAB625DD113200586AC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +62,8 @@
 		7CBFEAD325DD113400586AC3 /* SpriteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBFEAD725DD113400586AC3 /* SpriteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteDemoUITests.swift; sourceTree = "<group>"; };
 		7CBFEAD925DD113400586AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE31EDF25DFBB99009A3837 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EAAE8C5825E2965400330A99 /* Script123.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script123.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +122,13 @@
 				7CBFEABE25DD113200586AC3 /* Main.storyboard */,
 				7CBFEAC125DD113300586AC3 /* Assets.xcassets */,
 				7CBFEAC325DD113300586AC3 /* Info.plist */,
+				7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */,
+				7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */,
+				7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */,
+				7CE31EDF25DFBB99009A3837 /* MainViewController.swift */,
+				7CBBE65F25E0EBF40083717C /* MarioNode.swift */,
+				7CBBE66125E0F0710083717C /* DpadShapeNode.swift */,
+				EAAE8C5825E2965400330A99 /* Script123.sh */,
 			);
 			path = SpriteDemo;
 			sourceTree = "<group>";
@@ -234,8 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA319CA25DE3D6F00EFAF6D /* Launch Screen.storyboard in Resources */,
 				7CBFEAC025DD113200586AC3 /* Main.storyboard in Resources */,
 				7CBFEAB725DD113200586AC3 /* GameScene.sks in Resources */,
+				7CA3194C25DE10E800EFAF6D /* ElevatorJump.sks in Resources */,
 				7CBFEAC225DD113300586AC3 /* Assets.xcassets in Resources */,
 				7CBFEAB925DD113200586AC3 /* Actions.sks in Resources */,
 			);
@@ -262,9 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBBE66025E0EBF40083717C /* MarioNode.swift in Sources */,
 				7CBFEABB25DD113200586AC3 /* GameScene.swift in Sources */,
 				7CBFEABD25DD113200586AC3 /* GameViewController.swift in Sources */,
+				7CA3195025DE126E00EFAF6D /* ElevatorJumpScene.swift in Sources */,
 				7CBFEAB525DD113200586AC3 /* AppDelegate.swift in Sources */,
+				7CBBE66225E0F0710083717C /* DpadShapeNode.swift in Sources */,
+				7CE31EE025DFBB99009A3837 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +458,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = SpriteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Levi.SpriteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,14 +480,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XPVHQT72G;
 				INFOPLIST_FILE = SpriteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Levi.SpriteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

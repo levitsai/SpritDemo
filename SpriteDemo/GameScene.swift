@@ -11,12 +11,19 @@ import GameplayKit
 class GameScene: SKScene {
     
     private var label : SKLabelNode?
+    private var mario : SKSpriteNode!
     private var spinnyNode : SKShapeNode?
+    
+    
+    override func sceneDidLoad() {
+        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
+        self.mario = self.childNode(withName: "Mario") as? SKSpriteNode
+    }
     
     override func didMove(to view: SKView) {
         
         // Get label node from scene and store it for use later
-        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
+        
         if let label = self.label {
             label.alpha = 0.0
             label.run(SKAction.fadeIn(withDuration: 2.0))
@@ -30,10 +37,20 @@ class GameScene: SKScene {
             spinnyNode.lineWidth = 2.5
             
             spinnyNode.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 1)))
-            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
-                                              SKAction.fadeOut(withDuration: 0.5),
-                                              SKAction.removeFromParent()]))
+//            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
+//                                              SKAction.fadeOut(withDuration: 0.5),
+//                                              SKAction.removeFromParent()]))
         }
+        
+        self.mario.run(
+            
+            
+            SKAction.sequence([SKAction.wait(forDuration: 2),
+                               SKAction.group([
+                                SKAction.moveTo(x: 300, duration: 5),
+                                SKAction.repeatForever(SKAction(named: "MarioWalk")!)
+                               ])
+            ]))
     }
     
     

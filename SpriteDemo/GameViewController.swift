@@ -14,22 +14,50 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
+//        if let view = self.view as! SKView? {
+//            // Load the SKScene from 'GameScene.sks'
+//            if let scene = SKScene(fileNamed: "GameScene") {
+//                // Set the scale mode to scale to fit the window
+//                scene.scaleMode = .aspectFill
+//
+//                // Present the scene
+//                view.presentScene(scene)
+//            }
+//
+//            view.ignoresSiblingOrder = true
+//
+//            view.showsFPS = true
+//            view.showsNodeCount = true
+//        }
+        
+        
+        if let view = self.view as? SKView {
+            if let scene = SKScene(fileNamed: "ElevatorJump"){
                 scene.scaleMode = .aspectFill
+//                scene.size = self.view.bounds.size
                 
-                // Present the scene
+//                scene.size = UIScreen.main.bounds.size
+//                scene.size = CGSize(width: 375, height: 818)
+                print("scene.camera:",scene.camera, self.view.bounds.size, UIScreen.main.bounds.size)
+                
                 view.presentScene(scene)
             }
             
             view.ignoresSiblingOrder = true
-            
             view.showsFPS = true
             view.showsNodeCount = true
         }
+        
+        
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("UIScreen.main.bounds.size:", UIScreen.main.bounds.size)
+    }
+    
+    
+    
 
     override var shouldAutorotate: Bool {
         return true
