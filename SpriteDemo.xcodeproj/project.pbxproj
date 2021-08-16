@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CA3194C25DE10E800EFAF6D /* ElevatorJump.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */; };
-		7CA3195025DE126E00EFAF6D /* ElevatorJumpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */; };
+		7CA3194C25DE10E800EFAF6D /* MarioWorldScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3194B25DE10E800EFAF6D /* MarioWorldScene.sks */; };
+		7CA3195025DE126E00EFAF6D /* MarioWorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3194F25DE126E00EFAF6D /* MarioWorldScene.swift */; };
 		7CA319CA25DE3D6F00EFAF6D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */; };
+		7CB3FD8325E7770600752A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB3FD8125E7770600752A68 /* Assets.xcassets */; };
 		7CBBE66025E0EBF40083717C /* MarioNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBE65F25E0EBF40083717C /* MarioNode.swift */; };
-		7CBBE66225E0F0710083717C /* DpadShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBE66125E0F0710083717C /* DpadShapeNode.swift */; };
+		7CBBE66225E0F0710083717C /* MarioWorldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBE66125E0F0710083717C /* MarioWorldNode.swift */; };
 		7CBFEAB525DD113200586AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB425DD113200586AC3 /* AppDelegate.swift */; };
 		7CBFEAB725DD113200586AC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB625DD113200586AC3 /* GameScene.sks */; };
 		7CBFEAB925DD113200586AC3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAB825DD113200586AC3 /* Actions.sks */; };
 		7CBFEABB25DD113200586AC3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEABA25DD113200586AC3 /* GameScene.swift */; };
 		7CBFEABD25DD113200586AC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEABC25DD113200586AC3 /* GameViewController.swift */; };
 		7CBFEAC025DD113200586AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEABE25DD113200586AC3 /* Main.storyboard */; };
-		7CBFEAC225DD113300586AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFEAC125DD113300586AC3 /* Assets.xcassets */; };
 		7CBFEACD25DD113400586AC3 /* SpriteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEACC25DD113400586AC3 /* SpriteDemoTests.swift */; };
 		7CBFEAD825DD113400586AC3 /* SpriteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFEAD725DD113400586AC3 /* SpriteDemoUITests.swift */; };
 		7CE31EE025DFBB99009A3837 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE31EDF25DFBB99009A3837 /* MainViewController.swift */; };
+		EA0AAA5D25EA21CF00B7FC04 /* MusicRingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA0AAA5C25EA21CF00B7FC04 /* MusicRingScene.sks */; };
+		EA0AAA5F25EA275900B7FC04 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AAA5E25EA275900B7FC04 /* TableViewController.swift */; };
+		EA45C59A25EA53BB00CC0E72 /* MusicRingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45C59925EA53BB00CC0E72 /* MusicRingScene.swift */; };
+		EA45C59D25ECDC7D00CC0E72 /* LuckyWheelScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA45C59C25ECDC7D00CC0E72 /* LuckyWheelScene.sks */; };
+		EA45C59F25ECE72F00CC0E72 /* LuckyWheelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45C59E25ECE72F00CC0E72 /* LuckyWheelScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ElevatorJump.sks; sourceTree = "<group>"; };
-		7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorJumpScene.swift; sourceTree = "<group>"; };
+		7C2EA22B25E4DCC600443F4E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CA3194B25DE10E800EFAF6D /* MarioWorldScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MarioWorldScene.sks; sourceTree = "<group>"; };
+		7CA3194F25DE126E00EFAF6D /* MarioWorldScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldScene.swift; sourceTree = "<group>"; };
 		7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7CB3FD8125E7770600752A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CBBE65F25E0EBF40083717C /* MarioNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioNode.swift; sourceTree = "<group>"; };
-		7CBBE66125E0F0710083717C /* DpadShapeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadShapeNode.swift; sourceTree = "<group>"; };
+		7CBBE66125E0F0710083717C /* MarioWorldNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldNode.swift; sourceTree = "<group>"; };
 		7CBFEAB125DD113200586AC3 /* SpriteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBFEAB425DD113200586AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CBFEAB625DD113200586AC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -54,7 +61,6 @@
 		7CBFEABA25DD113200586AC3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7CBFEABC25DD113200586AC3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7CBFEABF25DD113200586AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CBFEAC125DD113300586AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CBFEAC325DD113300586AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBFEAC825DD113400586AC3 /* SpriteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBFEACC25DD113400586AC3 /* SpriteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteDemoTests.swift; sourceTree = "<group>"; };
@@ -63,7 +69,11 @@
 		7CBFEAD725DD113400586AC3 /* SpriteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteDemoUITests.swift; sourceTree = "<group>"; };
 		7CBFEAD925DD113400586AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE31EDF25DFBB99009A3837 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		EAAE8C5825E2965400330A99 /* Script123.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script123.sh; sourceTree = "<group>"; };
+		EA0AAA5C25EA21CF00B7FC04 /* MusicRingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MusicRingScene.sks; sourceTree = "<group>"; };
+		EA0AAA5E25EA275900B7FC04 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EA45C59925EA53BB00CC0E72 /* MusicRingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRingScene.swift; sourceTree = "<group>"; };
+		EA45C59C25ECDC7D00CC0E72 /* LuckyWheelScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LuckyWheelScene.sks; sourceTree = "<group>"; };
+		EA45C59E25ECE72F00CC0E72 /* LuckyWheelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyWheelScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		7CBFEAA825DD113100586AC3 = {
 			isa = PBXGroup;
 			children = (
+				7C2EA22B25E4DCC600443F4E /* README.md */,
 				7CBFEAB325DD113200586AC3 /* SpriteDemo */,
 				7CBFEACB25DD113400586AC3 /* SpriteDemoTests */,
 				7CBFEAD625DD113400586AC3 /* SpriteDemoUITests */,
@@ -114,21 +125,18 @@
 		7CBFEAB325DD113200586AC3 /* SpriteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA45C59B25ECD74D00CC0E72 /* LuckyWheel */,
+				EA0AAA6025EA3AC600B7FC04 /* Default */,
+				7CE82FEA25E8F1AD0072180E /* MusicRing */,
+				7CE82FE925E8EF2C0072180E /* MarioWorld */,
 				7CBFEAB425DD113200586AC3 /* AppDelegate.swift */,
-				7CBFEAB625DD113200586AC3 /* GameScene.sks */,
-				7CBFEAB825DD113200586AC3 /* Actions.sks */,
-				7CBFEABA25DD113200586AC3 /* GameScene.swift */,
-				7CBFEABC25DD113200586AC3 /* GameViewController.swift */,
-				7CBFEABE25DD113200586AC3 /* Main.storyboard */,
-				7CBFEAC125DD113300586AC3 /* Assets.xcassets */,
-				7CBFEAC325DD113300586AC3 /* Info.plist */,
-				7CA3194B25DE10E800EFAF6D /* ElevatorJump.sks */,
-				7CA3194F25DE126E00EFAF6D /* ElevatorJumpScene.swift */,
-				7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */,
 				7CE31EDF25DFBB99009A3837 /* MainViewController.swift */,
-				7CBBE65F25E0EBF40083717C /* MarioNode.swift */,
-				7CBBE66125E0F0710083717C /* DpadShapeNode.swift */,
-				EAAE8C5825E2965400330A99 /* Script123.sh */,
+				7CBFEAB825DD113200586AC3 /* Actions.sks */,
+				7CBFEABE25DD113200586AC3 /* Main.storyboard */,
+				7CBFEAC325DD113300586AC3 /* Info.plist */,
+				7CA319C925DE3D6F00EFAF6D /* Launch Screen.storyboard */,
+				7CB3FD8125E7770600752A68 /* Assets.xcassets */,
+				EA0AAA5E25EA275900B7FC04 /* TableViewController.swift */,
 			);
 			path = SpriteDemo;
 			sourceTree = "<group>";
@@ -149,6 +157,45 @@
 				7CBFEAD925DD113400586AC3 /* Info.plist */,
 			);
 			path = SpriteDemoUITests;
+			sourceTree = "<group>";
+		};
+		7CE82FE925E8EF2C0072180E /* MarioWorld */ = {
+			isa = PBXGroup;
+			children = (
+				7CA3194B25DE10E800EFAF6D /* MarioWorldScene.sks */,
+				7CA3194F25DE126E00EFAF6D /* MarioWorldScene.swift */,
+				7CBBE65F25E0EBF40083717C /* MarioNode.swift */,
+				7CBBE66125E0F0710083717C /* MarioWorldNode.swift */,
+			);
+			path = MarioWorld;
+			sourceTree = "<group>";
+		};
+		7CE82FEA25E8F1AD0072180E /* MusicRing */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AAA5C25EA21CF00B7FC04 /* MusicRingScene.sks */,
+				EA45C59925EA53BB00CC0E72 /* MusicRingScene.swift */,
+			);
+			path = MusicRing;
+			sourceTree = "<group>";
+		};
+		EA0AAA6025EA3AC600B7FC04 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFEABC25DD113200586AC3 /* GameViewController.swift */,
+				7CBFEABA25DD113200586AC3 /* GameScene.swift */,
+				7CBFEAB625DD113200586AC3 /* GameScene.sks */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		EA45C59B25ECD74D00CC0E72 /* LuckyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				EA45C59C25ECDC7D00CC0E72 /* LuckyWheelScene.sks */,
+				EA45C59E25ECE72F00CC0E72 /* LuckyWheelScene.swift */,
+			);
+			path = LuckyWheel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +304,11 @@
 				7CA319CA25DE3D6F00EFAF6D /* Launch Screen.storyboard in Resources */,
 				7CBFEAC025DD113200586AC3 /* Main.storyboard in Resources */,
 				7CBFEAB725DD113200586AC3 /* GameScene.sks in Resources */,
-				7CA3194C25DE10E800EFAF6D /* ElevatorJump.sks in Resources */,
-				7CBFEAC225DD113300586AC3 /* Assets.xcassets in Resources */,
+				7CA3194C25DE10E800EFAF6D /* MarioWorldScene.sks in Resources */,
+				EA0AAA5D25EA21CF00B7FC04 /* MusicRingScene.sks in Resources */,
+				EA45C59D25ECDC7D00CC0E72 /* LuckyWheelScene.sks in Resources */,
 				7CBFEAB925DD113200586AC3 /* Actions.sks in Resources */,
+				7CB3FD8325E7770600752A68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +334,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBBE66025E0EBF40083717C /* MarioNode.swift in Sources */,
+				EA45C59F25ECE72F00CC0E72 /* LuckyWheelScene.swift in Sources */,
 				7CBFEABB25DD113200586AC3 /* GameScene.swift in Sources */,
 				7CBFEABD25DD113200586AC3 /* GameViewController.swift in Sources */,
-				7CA3195025DE126E00EFAF6D /* ElevatorJumpScene.swift in Sources */,
+				EA0AAA5F25EA275900B7FC04 /* TableViewController.swift in Sources */,
+				7CA3195025DE126E00EFAF6D /* MarioWorldScene.swift in Sources */,
 				7CBFEAB525DD113200586AC3 /* AppDelegate.swift in Sources */,
-				7CBBE66225E0F0710083717C /* DpadShapeNode.swift in Sources */,
+				7CBBE66225E0F0710083717C /* MarioWorldNode.swift in Sources */,
 				7CE31EE025DFBB99009A3837 /* MainViewController.swift in Sources */,
+				EA45C59A25EA53BB00CC0E72 /* MusicRingScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

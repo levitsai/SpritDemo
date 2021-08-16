@@ -10,19 +10,52 @@ import SpriteKit
 
 class MainViewController: UIViewController {
 
-    @IBOutlet weak var elevatorJump: SKView!
+//    @IBOutlet weak var elevatorJump: SKView!
+//    
+//    var elevatorJumpScene: MarioWorldScene {
+//        self.elevatorJump.scene as! MarioWorldScene
+//    }
     
-    var elevatorJumpScene: ElevatorJumpScene {
-        self.elevatorJump.scene as! ElevatorJumpScene
-    }
+    var sceneName: String?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let _sceneName = self.sceneName, let scene = SKScene(fileNamed: _sceneName) {
+            
+            scene.scaleMode = .aspectFit
+            
+            if let _skView = self.view as? SKView {
+                _skView.presentScene(scene)
+                
+                if let sceneView = scene.view {
+                    sceneView.contentMode = .scaleAspectFill
+                    sceneView.isMultipleTouchEnabled = true
+                    sceneView.isExclusiveTouch = false
+                    sceneView.isUserInteractionEnabled = true
+                    
+                    sceneView.showsFPS = true
+                    sceneView.showsDrawCount = true
+                    sceneView.showsNodeCount = true
+
+                }
+            }
+        }
+    }
+    
+
+    func loadingScene( name: String) {
+        self.sceneName = name
+    }
 
     /*
     // MARK: - Navigation
@@ -34,47 +67,8 @@ class MainViewController: UIViewController {
     }
     */
 
-    @IBAction func padTapAction(_ sender: UITapGestureRecognizer) {
-        print(sender.location(in: sender.view))
-        
-        guard let _view = sender.view else {
-            return
-        }
-        
-        if sender.location(in: _view).x > _view.bounds.width/2{
-            self.elevatorJumpScene.direction = .Right
-        } else{
-            self.elevatorJumpScene.direction = .Left
-        }
-    }
-    
-    @IBAction func padAction(_ sender: UIPanGestureRecognizer) {
-//        print(sender.state.rawValue)
-//        print(sender.translation(in: sender.view))
-        print(sender.location(in: sender.view))
-        
-        guard let _view = sender.view else {
-            return
-        }
-        
-        switch sender.state {
-        case .began, .changed:
-            if sender.location(in: _view).x > _view.bounds.width/2{
-                self.elevatorJumpScene.direction = .Right
-            } else{
-                self.elevatorJumpScene.direction = .Left
-            }
-        case .ended:
-            self.elevatorJumpScene.direction = .UnKnown
-        default:
-            break
-        }
         
         
-        
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask { .landscapeRight }
 
-        
-        
-        
-    }
 }
